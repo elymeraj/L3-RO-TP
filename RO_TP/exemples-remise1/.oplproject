@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="Configuration1" category="opl">
+            			
+            <ref name="ex1.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Configuration2" category="opl">
+            			
+            <ref name="ex2.mod" type="model">
+			</ref>
+            			
+            <ref name="donnees.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="Configuration3" category="opl">
+            			
+            <ref name="ex3.mod" type="model">
+			</ref>
+            			
+            <ref name="donnees3.dat" type="data">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>

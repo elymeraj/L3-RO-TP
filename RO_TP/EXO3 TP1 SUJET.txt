@@ -1,0 +1,22 @@
+3.2Exercice a faire (Cplex studio): Plus court chemin
+Un livreur de pizzas doit livrer une commande en moins de 14 minutes. Le graphe proposé comprends les sommets V={A,B,...H}. Chaque arete du graphe porte la duree des trajets en minutes. La societe fabriquant les pizzas se situe au sommet A du graphe et la livraison doit s'effectuer au sommet H. Les donnees sont resumees dans le tableau suivant:
+
+Aretes |  AB  |  AD  |  AE  | BC  |  BE  |  CE  |  CG  |  DE  |  DF  |  EF  |  EG  |  FH  |  GH
+Duree  |  2   |  5   |  7   |  9  |  4   |  4   |  6   |  3   |  4   |  3   |  4   |   5  |  3
+
+1. Creer le projet OCC pour le plus court chemins.
+2. Creer un nouveau modele OPL et ecrire le programme lineaire vu en cours pour le plus court chemins.
+3. Creer les donnees du probleme du livreur.
+4. Lelivreur arrivera-t-il a remps?
+5. Avant d'arriver a sa destination le livreur doit livrer un client qui se situe au sommet E avant de poursuivre son chemin. Cette livraison dure 3 minutes. Comment tenir compte cette nouvelle contrainte? Quel temps minimum est necessaire pour la livraison dans ce cas? Le livreur arrivera-t-il en temps?
+
+3.3 Plus court chemin en cout avec contrainte de temps
+Soit le reseau a 9 sommets dont les arcs munis d'une duree et d'un cout sont donnees dans le tableau suivant:
+
+Aretes |  12  |  13  |  14  | 26  |  32  |  34  |  38  |  45  |  53  |  58  |  59  |  63  |  67  |  68  |  72  |  78  |  79  |  89 
+Duree  |   3  |   4  |   8  | 2   |  4   |  5   |  3   |  2   |   3  |  5   |  0   |  4   |  2   |  2   |   2  |  4   |  3   |  4
+Cout   |   7  |   3  |   4  | 1   |  2   |  1   |  8   |  3   |   2  |  7   |  6   |  1   |  2   |  3   |   1  |  2   |  5   |  2
+
+1. Determiner le chemin de cout minimum du sommet 1 au sommet 9.
+2. Determiner le chemin de cout minimum du sommet 1 au sommet 9 tel que le temps total pris sur ce chemin ne depasse pas 10 unites de temps.
+   

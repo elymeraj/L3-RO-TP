@@ -1,0 +1,31 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: eldisymeraj
+ * Creation Date: Mar 19, 2024 at 7:54:32 PM
+ *********************************************/
+
+// EXO 1
+/*
+nbSources = 3; // Nombre de sources (ports)
+nbDestinations = 4; // Nombre de destinations (villes)
+
+// Définition des connexions (arêtes) entre sources et destinations
+Edges = {<1,1>, <1,2>,<1,3>,<1,4>, <2,1>, <2,2>, <2,3>,<2,4>, <3,1>,<3,2>,<3,3>,<3,4>};
+
+// Coûts de transport associés à chaque connexion
+Cost = [8,5,6,7,8,2,7,6,9,3,4,8];
+
+// Offre disponible dans chaque source (port)
+Offre = [25,25,50];
+// Demande de chaque destination (ville)
+Demande = [15,20,30,35];
+*/
+
+
+// EXO 2:
+nbSources = 3;
+nbDestinations = 4;
+Edges = {<1,1>, <1,2>,<1,3>, <2,1>, <2,2>, <2,3>, <3,1>,<3,2>,<3,3>};
+Cost = [210 200 225 175 185 190 315 310 320];
+Offre = [1 1 1];
+Demande = [1 1 1];
